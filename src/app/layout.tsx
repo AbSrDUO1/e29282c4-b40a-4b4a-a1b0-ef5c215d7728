@@ -1,6 +1,8 @@
+"use client";
 import type { Metadata } from "next";
 import { Inter_Tight, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 
 const interTight = Inter_Tight({
   variable: "--font-inter-tight",
