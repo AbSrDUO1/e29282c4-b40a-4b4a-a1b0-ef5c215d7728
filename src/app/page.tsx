@@ -52,9 +52,9 @@ export default function Home() {
           title="Tokenomics"
           description="Our tokenomics ensures fair and equitable distribution of our resources."
           kpiItems={[
-            { value: "1M", description: "Total Pizzas Sold", longDescription: "This reflects our sales in the last year.", icon: 'Users' },
-            { value: "500K", description: "Happy Customers", longDescription: "We've served a large number of customers this year.", icon: 'Star' },
-            { value: "10K", description: "Tokens Distributed", longDescription: "A fair share for all our loyal customers.", icon: 'Gift' }
+            { value: "1M", description: "Total Pizzas Sold", longDescription: "This reflects our sales in the last year.", icon: Globe },
+            { value: "500K", description: "Happy Customers", longDescription: "We've served a large number of customers this year.", icon: Globe },
+            { value: "10K", description: "Tokens Distributed", longDescription: "A fair share for all our loyal customers.", icon: Globe }
           ]}
         />
       </div>
