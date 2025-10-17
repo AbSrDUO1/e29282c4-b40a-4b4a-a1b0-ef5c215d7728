@@ -6,6 +6,7 @@ import CtaAbout from '@/components/sections/layouts/about/CtaAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogoEmphasisBackgroundGradient from '@/components/footer/FooterLogoEmphasisBackgroundGradient';
+import { Globe } from '@/components/bento/contents/Globe';
 
 const theme: SiteTheme = { styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" };
 
