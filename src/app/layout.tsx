@@ -16,38 +16,6 @@ const playfairDisplay = Playfair_Display({
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
-export const metadata: Metadata = {
-  title: "Pizzeria Roma — Fresh Handmade Pizza, Takeout & Dine-In",
-  description: "Pizzeria Roma serves stone-fired pies with bold toppings in a warm, family-friendly setting. Easy takeout or dine-in — order now and enjoy hot pizza fast.",
-  keywords: [
-    "pizzeria",
-    "pizza",
-    "handmade pizza",
-    "takeout",
-    "dine-in",
-    "stone-fired",
-    "family-owned",
-    "pizza near me",
-    "pizza delivery",
-  ],
-  alternates: { canonical: "/" },
-  openGraph: {
-    title: "Pizzeria Roma — Fresh Handmade Pizza, Takeout & Dine-In",
-    description: "Pizzeria Roma serves stone-fired pies with bold toppings in a warm, family-friendly setting. Easy takeout or dine-in — order now and enjoy hot pizza fast.",
-    type: "website",
-    url: "/",
-    siteName: "Pizzeria Roma",
-    images: [{ url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/draw-a-cartoon-desert-landscape-in-16-9--1760693328774-a571399a.jpg", width: 1200, height: 630, alt: "Pizzeria Roma dining experience" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Pizzeria Roma — Fresh Handmade Pizza, Takeout & Dine-In",
-    description: "Pizzeria Roma serves stone-fired pies with bold toppings in a warm, family-friendly setting. Easy takeout or dine-in — order now and enjoy hot pizza fast.",
-    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/draw-a-cartoon-desert-landscape-in-16-9--1760693328774-a571399a.jpg"],
-  },
-  robots: { index: true, follow: true },
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
