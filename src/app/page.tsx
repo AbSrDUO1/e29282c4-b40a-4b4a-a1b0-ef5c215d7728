@@ -15,7 +15,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/design-a-simple-high-contrast-logo-for-p-1760693333025-d42b9d54.jpg"
-          logoAlt="Pizzeria Roma Logo"
           buttonText="Order Now"
           navItems={[
             { name: "Hero", id: "hero" },
@@ -63,7 +62,6 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <FooterLogoEmphasisBackgroundGradient
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/design-a-simple-high-contrast-logo-for-p-1760693333025-d42b9d54.jpg"
-          logoAlt="Footer Logo"
           logoText="Pizzeria Roma"
           items={[
             { label: "Privacy Policy", onClick: () => console.log('Privacy Policy Clicked') },
